@@ -76,11 +76,13 @@ The primary objective of this project is to build a predictive model that can ef
 
 **correlation matrix of numerical variables**
 
-![Correlation Matrix](Correlation matrix.png)
+![Correlation Matrix](https://github.com/liciemw/Phase3-Project/blob/master/Correlation%20matrix.png)
+
 
 **Performance Metrics for KNN**
 
-![Knn Performance Matrices](Knn performance matrices.png)
+![Knn Performance Matrices](https://github.com/liciemw/Phase3-Project/blob/master/Knn%20performance%20matrices.png)
+
 
 The model correctly predicts the class label for about 88.2% of the instances in the testing dataset. The classification report provides a detailed summary of performance metrics for each class 0(customers not likely to churn) and 1(customers likely to churn), including precision, recall, and F1-score Precision: Precision measures the proportion of true positive predictions among all positive predictions made by the model. In other words, it measures the accuracy of positive predictions. A precision score of 0.88 for class 0 means that 88% of the instances predicted as class 0 were actually class 0. Similarly, a precision score of 0.89 for class 1 means that 89% of the instances predicted as class 1 were actually class 1.
 
@@ -92,7 +94,7 @@ Support: Support represents the number of actual occurrences of each class in th
 
 **Performance Metrics for Random Forest Classifier**
 
-![RF Performance Matrices](RF performance matrices.png)
+![RF Performance Matrices](https://github.com/liciemw/Phase3-Project/blob/master/RF%20performance%20matrices.png)
 
 The precision score of 0.9516 indicates that 95.16% of the instances predicted as churn were actually churn.
 
@@ -102,7 +104,8 @@ The Random Forest classifier achieves a higher accuracy of 93%, indicating that 
 
 **metrics performance of the tuned model**
 
-![Tuned Matrices](tuned matrices.png)
+![Tuned Matrices](https://github.com/liciemw/Phase3-Project/blob/master/tuned%20matrices.png)
+
 
 The XGBoost tuned model performs quite well on both the training and testing datasets, with an accuracy of approximately 98.46% on the training dataset and 95.80% on the testing dataset. Having high accuracy on both datasets suggests that the model generalizes well to unseen data, indicating that it has learned meaningful patterns from the training data and can make accurate predictions on new data points. Visualizing the other evaluation metrics such as precision, recall of the tuned model.
 
