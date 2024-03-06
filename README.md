@@ -110,7 +110,7 @@ The Random Forest classifier achieves a higher accuracy of 93%, indicating that 
 The XGBoost tuned model performs quite well on both the training and testing datasets, with an accuracy of approximately 98.46% on the training dataset and 95.80% on the testing dataset. Having high accuracy on both datasets suggests that the model generalizes well to unseen data, indicating that it has learned meaningful patterns from the training data and can make accurate predictions on new data points. Visualizing the other evaluation metrics such as precision, recall of the tuned model.
 
 # Conclusion
-We have successfully improved the all the metrics values therefore an improvement in correctly identifying all churn instances. The final tuned model does incredibly well in its ability to correctly classify positive and negative instances and balance between false positives and false negatives.
+We have successfully improved the all the metrics values therefore an improvement in correctly identifying all churn instances. The final tuned model does incredibly well in its ability to correctly classify positive and negative instances and balance between false positives and false negatives. In conclusion, the developed model provides valuable insights for SyriaTel to proactively identify and retain customers at risk of churning. By leveraging predictive analytics, telecom companies can optimize customer retention strategies, enhance customer satisfaction, and minimize revenue loss.
 
 
 
